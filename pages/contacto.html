@@ -11,7 +11,7 @@
 <body>
 <header>
     <nav class="navbar">
-    <h1 class="logo">CONTACTANOS</h1>
+    <h1 class="logo">CONTÁCTANOS</h1>
     <ul class="nav-links">
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="./limpieza-y-hogar.html">Limpieza</a></li>
@@ -21,9 +21,23 @@
     </nav>
 </header>
 
-    <main>
+    <section class="contacto">
+        <div class="overlay"></div>
+        <div class="form-container">
+            <h2>Escríbenos</h2>
+            <p>Completa el formulario y nos pondremos en contacto contigo.</p>
+            
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="apellido" placeholder="Apellido" required>
+                <input type="tel" name="telefono" placeholder="Número de teléfono" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" placeholder="Escribe tu mensaje..." rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
 
-    </main>
 
     <footer>
     <div class="footer-content">
@@ -37,7 +51,7 @@
         <a href="https://wa.me/5492616004422">WhatsApp</a>
     </p>
     </div>
-    <!-- Botones flotantes -->
+    
 <div class="social-floating">
     <a href="https://wa.me/5492616004422" target="_blank" class="float-btn whatsapp">
         <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
